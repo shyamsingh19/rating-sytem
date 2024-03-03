@@ -1,0 +1,124 @@
+.rating_wrap {
+  width: 600px;
+  margin: 60px 20px;
+  background-color: aliceblue;
+  padding: 10px 20px 40px 20px;
+
+}
+
+.button_wrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: black;
+}
+
+.sort_button span {
+  color: white;
+
+}
+
+.sort_button {
+  padding-left: 20px;
+}
+
+.sort_button button {
+  border: 1px solid white;
+  ;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  padding: 3px;
+  font-size: 15px;
+  border-radius: 3px;
+}
+
+.listingbox {
+  padding: 0;
+  margin: 0;
+}
+
+.ratinglist {
+  list-style: none;
+  padding: 10px 10px 10px 30px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+
+}
+
+.addnew {
+  cursor: pointer;
+  border: 1px solid white;
+  ;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  padding: 3px;
+  border-radius: 3px;
+}
+
+.ratinglist span {
+  cursor: pointer;
+  font-size: 25px;
+}
+
+.ratinglist:nth-child(odd) {
+  background-color: #e4e4e4;
+}
+
+.ratinglist:nth-child(even) {
+  background-color: #ffffff;
+}
+
+.modalbox {
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  background-color: aliceblue;
+  border-radius: 6px;
+  padding: 20px;
+
+}
+
+.crossicon {
+  display: flex;
+  justify-content: end;
+  font-weight: 600px;
+  height: 10px;
+  width: 8px;
+  text-align: end;
+  cursor: pointer;
+}
+
+.form_wrap h4 {
+  padding: 0;
+  margin: 0;
+  font-size: 20px;
+  font-weight: 800;
+  color: rgb(6, 115, 155);
+}
+
+.form_wrap div {
+  margin: 10px 0;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.form_wrap label {
+  display: block;
+  color: black;
+  width: 30%;
+}
+
+.form_buttons {
+  margin-top: 30px !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  gap: 20px !important;
+}
