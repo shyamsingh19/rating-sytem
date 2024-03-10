@@ -3,7 +3,6 @@
   margin: 60px 20px;
   background-color: aliceblue;
   padding: 10px 20px 40px 20px;
-
 }
 
 .button_wrap {
@@ -16,7 +15,6 @@
 
 .sort_button span {
   color: white;
-
 }
 
 .sort_button {
@@ -25,7 +23,6 @@
 
 .sort_button button {
   border: 1px solid white;
-  ;
   background-color: black;
   color: white;
   cursor: pointer;
@@ -45,13 +42,11 @@
   display: flex;
   gap: 10px;
   align-items: center;
-
 }
 
 .addnew {
   cursor: pointer;
   border: 1px solid white;
-  ;
   background-color: black;
   color: white;
   cursor: pointer;
@@ -81,7 +76,6 @@
   background-color: aliceblue;
   border-radius: 6px;
   padding: 20px;
-
 }
 
 .crossicon {
