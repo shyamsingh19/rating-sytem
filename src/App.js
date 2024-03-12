@@ -156,7 +156,6 @@ const App = () => {
           </Modal>
         </div>
         <UserList users={users} onRatingChange={handleRatingChange} />
-        {/* <AddUserForm onAddUser={handleAddUser} /> lets check its working or not  */}
       </div>
     </div>
   );
